@@ -9,3 +9,8 @@ const passport = require('passport')
 const session = require('express-session')
 const mongoose= require('mongoose')
 
+// routes // 
+const routes = require('./routes/index.js')
+
+
+
