@@ -9,9 +9,12 @@ const passport = require('passport')
 const session = require('express-session')
 const mongoose= require('mongoose')
 
-// routes // 
+// *** routes *** //
 const routes = require('./routes/index.js')
 
-// express instance //
+// *** express instance *** //
 const app = express()
+
+// *** mongoose *** //
+mongoose.connect('mongodb://localhost/passport-social-auth');
 
