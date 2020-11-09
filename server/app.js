@@ -22,3 +22,6 @@ mongoose.connect('mongodb://localhost/passport-social-auth');
 const swig = new swig.Swig();
 app.engine('html', swig.renderFile);
 app.set('view engine', 'html');
+
+// *** static directory *** //
+app.set('views', path.join(__dirname, 'views'));
