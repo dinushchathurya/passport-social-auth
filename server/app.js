@@ -1,0 +1,11 @@
+const express = require('express')
+const path = require('path')
+const favicon = require('serve-favicon')
+const logger= require('morgan')
+const cookirParser = require('cookie-parser')
+const bodyParser = require('body-parse')
+const swig = require('swig')
+const passport = require('passport')
+const session = require('express-session')
+const mongoose= require('mongoose')
+
