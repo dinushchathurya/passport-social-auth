@@ -25,3 +25,6 @@ app.set('view engine', 'html');
 
 // *** static directory *** //
 app.set('views', path.join(__dirname, 'views'));
+
+// *** config middleware *** //
+app.use(logger('dev'));
