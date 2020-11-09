@@ -18,3 +18,7 @@ const app = express()
 // *** mongoose *** //
 mongoose.connect('mongodb://localhost/passport-social-auth');
 
+// *** view engine *** //
+const swig = new swig.Swig();
+app.engine('html', swig.renderFile);
+app.set('view engine', 'html');
