@@ -12,5 +12,6 @@ const mongoose= require('mongoose')
 // routes // 
 const routes = require('./routes/index.js')
 
-
+// express instance //
+const app = express()
 
