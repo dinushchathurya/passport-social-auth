@@ -3,7 +3,7 @@ const path = require('path')
 const favicon = require('serve-favicon')
 const logger= require('morgan')
 const cookieParser = require('cookie-parser')
-const bodyParser = require('body-parse')
+const bodyParser = require('body-parser')
 const swig = require('swig')
 const passport = require('passport')
 const session = require('express-session')
@@ -19,7 +19,6 @@ const app = express()
 mongoose.connect('mongodb://localhost/passport-social-auth');
 
 // *** view engine *** //
-const swig = new swig.Swig();
 app.engine('html', swig.renderFile);
 app.set('view engine', 'html');
 
