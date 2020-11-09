@@ -39,3 +39,6 @@ app.use(session({
 }));
 app.use(passport.initialize());
 app.use(passport.session());
+
+// *** main routes *** //
+app.use('/', routes);
