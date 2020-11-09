@@ -2,7 +2,7 @@ const express = require('express')
 const path = require('path')
 const favicon = require('serve-favicon')
 const logger= require('morgan')
-const cookirParser = require('cookie-parser')
+const cookieParser = require('cookie-parser')
 const bodyParser = require('body-parse')
 const swig = require('swig')
 const passport = require('passport')
@@ -72,3 +72,5 @@ app.use(function (err, req, res, next) {
         error: {}
     });
 });
+
+module.exports = app;
