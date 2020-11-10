@@ -3,15 +3,18 @@
 ### In here, I have created social authentication with Passport and Node.js. In this application, I have only implemented Twitter, LinkedIn and GitHub Authentications.
 
 ## Requirements
+
 * Node.js
 
 ## Credentials
 
 * LinkedIn
-<p>
-Navigate to <a href="https://www.linkedin.com/developer/apps/">LinkedIn Developers</a> to register a new application. Just enter dummy info, make sure to add the callback - http://127.0.0.1:3000/auth/linkedin/callback - and update the config within the app:</p>
+
+<p>Navigate to <a href="https://www.linkedin.com/developer/apps/">LinkedIn Developers</a> to register a new application. Just enter dummy info, make sure to add the callback - http://127.0.0.1:3000/auth/linkedin/callback - and update the config within the app:</p>
+
 * Twitter
 <p>Navigate to <a href="https://apps.twitter.com/">Twitter Developer Page </a>and create an new app, adding in the correct callback URL, and add the given client ID and Secret Key to the _config.js file</p>
+
 * GitHub
 <p>Navigate to <a href="https://apps.twitter.com/">GitHub Developer Settings </a>and create an new app, adding in the correct callback URL, and add the given client ID and Secret Key to the _config.js file</p>
 
@@ -22,6 +25,7 @@ To run this application,
 * clone this repository `git clone https://github.com/dinushchathurya/passport-social-auth` 
 
 * Then `cd passport-social-auth`
+
 * Run `npm install`
 
 * Then goto "_config test.js" file and rename it as "_config.js"
@@ -62,3 +66,5 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ## Blog
 
 https://codingtricks.io/
+
+<p ><h2 align="center">Happy<i class="fa fa-heart" style="color:red;"></i> Coding<i class="fa fa-code" style="color:orange;"> </i></h2></p>
