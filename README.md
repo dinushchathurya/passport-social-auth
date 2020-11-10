@@ -1,6 +1,6 @@
 # Passport Social Auth
 
-### In here, I have created social authentication with Passport and Node.js. In this application, I have only implemented Twitter, LinkedIn and GitHub Authentications.
+In here, I have created social authentication with Passport and Node.js. In this application, I have only implemented Twitter, LinkedIn and GitHub Authentications.
 
 ## Requirements
 
@@ -66,5 +66,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ## Blog
 
 https://codingtricks.io/
+
+## 
 
 <p ><h2 align="center">Happy<i class="fa fa-heart" style="color:red;"></i> Coding<i class="fa fa-code" style="color:orange;"> </i></h2></p>
